@@ -65,7 +65,7 @@ h1.alpha {
   color: lawngreen;
   font-family: "Audiowide", cursive;
   text-align: center;
-  font-size: 6rem;
+  font-size: 4.3rem;
 }
 
 h1.primary {
@@ -441,6 +441,10 @@ img.loader {
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 999;
   }
+
+  h1.alpha {
+    font-size: 3rem;
+  }
 }
 
 /* Hero Area */
@@ -609,7 +613,7 @@ img.loader {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
   .banner-content {
     width: 90%;
   }
@@ -768,6 +772,11 @@ img.loader {
   }
 }
 
+@media (max-width: 600px) {
+  h1.alpha {
+    font-size: 2rem;
+  }
+}
 /* =========== Sort Products ============ */
 .title-container {
   display: flex;
